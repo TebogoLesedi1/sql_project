@@ -27,7 +27,7 @@ Fundamental to Advanced
 ​I am practicing how to write precise queries using the WHERE clause and Logical Operators (AND, OR, NOT).
 
 
-​Key Insight: Understanding Operator Precedence—using Parentheses () to ensure the database processes filters in the correct logical order.
+​Key Insight: Understanding Operator Precedence, using Parentheses () to ensure the database processes filters in the correct logical order.
 
 
 ​2. Professional Workflow (SSMS + Git)
@@ -41,6 +41,6 @@ Fundamental to Advanced
  📂 Repository Contents
 
 
-​01_Database_Setup.sql: Creating the environment and importing raw datasets.
+​01 Parks_and_Recreation.sql: Creating the environment and importing raw datasets.
 
 ​SQL: A collection of various clauses practiced  in different files (e.g., LIKE, IN, ORDER BY).
