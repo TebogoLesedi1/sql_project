@@ -1,6 +1,7 @@
-DROP DATABASE IF EXISTS `Parks_and_Recreation`;
-CREATE DATABASE `Parks_and_Recreation`;
-USE `Parks_and_Recreation`;
+DROP DATABASE IF EXISTS Parks_and_Recreation;
+CREATE DATABASE Parks_and_Recreation;
+
+USE Parks_and_Recreation;
 
 
 
@@ -60,7 +61,7 @@ VALUES
 
 
 CREATE TABLE parks_departments (
-  department_id INT NOT NULL AUTO_INCREMENT,
+  department_id INT IDENTITY(1,1) NOT NULL,
   department_name varchar(50) NOT NULL,
   PRIMARY KEY (department_id)
 );
